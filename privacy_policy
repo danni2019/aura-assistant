@@ -1,0 +1,203 @@
+# Privacy Policy
+
+## AURA - Assistant for Unified Record & Analysis
+
+**Last updated: August 16, 2025**
+
+## 1. Introduction
+
+AURA ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application AURA - Assistant for Unified Record & Analysis (the "App").
+
+## 2. Information Collection
+
+### 2.1 No Server-Side Collection
+The App does not collect, transmit, upload, sync, or otherwise send any user-entered data or device information to external servers. All information you enter remains strictly on your device.
+
+### 2.2 Local-Only User Entries
+You may choose to locally record generic personal metrics (e.g., numeric values, timers, counts, text notes, progress logs, custom labels). These entries are stored only on your device and are never transmitted to us.
+
+### 2.3 No Sensitive / Medical Data Handling
+The App is not designed for medical, diagnostic, therapeutic, health, fitness, or physiological data. Please do not use it to store medical or health-related measurements. The App has no HealthKit / Apple Health integration.
+
+### 2.4 No Personal Identifiers
+We do not collect names, emails, phone numbers, account identifiers, contacts, location, browsing history, advertising identifiers, or any network usage telemetry.
+
+### 2.5 No Analytics / Tracking
+There is no third-party analytics SDK, crash reporting service, ad network, or behavioral tracking embedded in the App. We do not perform remote logging.
+
+## 3. Local Processing Only
+
+- All entered information is processed locally on your device.
+- No remote servers are involved; there is no cloud sync or iCloud support in the current version.
+- Any computed summaries or insights are generated entirely offline.
+
+## 4. Data Storage and Security
+
+### 4.1 Local Storage Only
+- Your entries are stored exclusively on your device using iOS secure storage mechanisms.
+- No copies are uploaded, mirrored, or backed up to external servers by the App.
+- There is currently no iCloud or other network-based data feature.
+
+### 4.2 Security Measures
+- Follows secure coding practices and least data principle (no external collection).
+- Relies on iOS sandboxing and system encryption (e.g., device-level encryption at rest) where applicable.
+- Optional Face ID / Touch ID can be enabled for convenience and local protection.
+
+## 5. Data Sharing and Disclosure
+
+### 5.1 No Third-Party Access
+- No data leaves your device; thus there is nothing for us to sell, share, or disclose.
+- No third-party SDKs with data access are embedded.
+
+### 5.2 Legal Requests
+Because no user data is transmitted to or stored on our servers, we generally have nothing to disclose. If legally compelled regarding App operation, we can only confirm the App’s local-only architecture.
+
+## 6. Your Rights and Choices
+
+### 6.1 On-Device Control
+- **View / Edit**: All entries visible and editable locally.
+- **Delete**: Remove individual or all entries at any time; deletion is immediate and irreversible once confirmed.
+- **Export (Manual)**: If an export feature is provided, it operates locally and under your explicit action.
+
+### 6.2 Permissions
+- **Local Storage**: Required for saving entries.
+- **Face ID / Touch ID**: Optional local authentication convenience.
+- **Notifications**: Optional local reminders. No remote push data analytics.
+
+## 7. Children's Privacy
+
+The App does not target children under 13 and contains no online services. We do not knowingly collect any personal information. All data stays solely on-device.
+
+## 8. Data Retention
+
+- Data persists only while stored locally on your device.
+- You may delete data at any time; we receive nothing.
+- Uninstalling the App removes all locally stored data not otherwise backed up by you.
+
+## 9. International Data Transfers
+
+There are no international transfers because no data is transmitted off your device.
+
+## 10. Changes to This Privacy Policy
+
+Material changes will update the "Last updated" date and may be noted in-app. Continued local-only design is a core principle.
+
+## 11. Contact Information
+
+If you have any questions about this Privacy Policy or our data practices, please contact us:
+
+- **App**: AURA - Assistant for Unified Record & Analysis
+- **Developer**: Yang
+- **Support**: Through App Store reviews or in-app feedback
+
+## 12. Compliance
+
+This Privacy Policy aligns with:
+- Apple App Store Guidelines (local-only data model)
+- iOS data protection principles
+- Applicable GDPR / CCPA principles of data minimization (no collection / no processing off-device)
+
+By using AURA you acknowledge the purely local nature of the App and that no personal data is collected or transmitted by us.
+
+
+# 隐私政策
+
+## AURA - 统一记录与分析助手
+
+**最后更新：2025年8月16日**
+
+## 1. 简介
+
+AURA（"我们"、"我们的"或"我们方"）致力于保护您的隐私。本隐私政策说明我们在您使用我们的移动应用程序 AURA - 统一记录与分析助手（"应用程序"）时如何收集、使用和保护您的信息。
+
+## 2. 信息收集说明
+
+### 2.1 不进行服务器端收集
+本应用不收集、不上传、不同步、不传输任何您输入的数据或设备信息。所有数据仅保存在您的设备本地。
+
+### 2.2 本地用户记录
+您可在设备上本地记录通用数据（例如：数值、计时、计数、文本备注、进度日志、自定义标签）。这些数据不会离开您的设备。
+
+### 2.3 不处理敏感/医疗数据
+本应用不针对医疗、诊断、治疗、健康、健身或生理数据设计。请勿用于存储医疗或健康相关测量；本应用无 HealthKit / Apple Health 集成。
+
+### 2.4 无个人身份信息
+我们不收集姓名、邮箱、电话号码、账号标识、联系人、位置信息、浏览历史、广告标识或任何网络使用遥测。
+
+### 2.5 无分析 / 追踪
+应用内无第三方分析 SDK、崩溃收集服务、广告网络或行为追踪。我们不做远程日志记录。
+
+## 3. 本地处理
+
+- 所有数据处理均在您的设备本地完成。
+- 当前版本无云同步、无 iCloud 支持。
+- 任何统计或概览均为离线本地计算。
+
+## 4. 数据存储与安全
+
+### 4.1 仅本地存储
+- 数据仅保存在您的设备（利用 iOS 沙盒与系统加密能力）。
+- 不上传、不镜像、不在服务器保留副本。
+- 当前无 iCloud 或其它联网数据功能。
+
+### 4.2 安全措施
+- 采用最小数据原则（不采集外发）。
+- 安全编码实践及 iOS 系统级保护。
+- 可选 Face ID / Touch ID 仅用于本地解锁。
+
+## 5. 数据共享与披露
+
+### 5.1 无第三方访问
+- 数据不外发，因此无可出售、共享或披露内容。
+- 无嵌入具数据访问能力的第三方 SDK。
+
+### 5.2 法律请求
+由于我们不存储用户数据，通常无可提供的内容。若被依法询问，仅可说明本地离线架构。
+
+## 6. 您的权利与选择
+
+### 6.1 本地控制
+- **查看 / 编辑**：所有记录均可本地查看与修改。
+- **删除**：可随时删除单条或全部；删除后无法恢复。
+- **导出（若提供）**：导出在本地执行，由您主动触发。
+
+### 6.2 权限
+- **本地存储**：用于保存数据。
+- **Face ID / Touch ID**：可选本地解锁。
+- **通知**：仅本地提醒，无远程推送统计。
+
+## 7. 儿童隐私
+
+本应用不面向 13 岁以下儿童，且无在线服务。我们不收集任何个人信息。
+
+## 8. 数据保留
+
+- 数据仅在您设备上停留至您删除或卸载。
+- 您可随时删除数据；我们无任何副本。
+- 卸载应用会移除所有未另行备份的本地数据。
+
+## 9. 国际数据传输
+
+不发生国际传输，因为数据不离开设备。
+
+## 10. 隐私政策变更
+
+若有重大调整，将更新“最后更新”日期并可能在应用内提示。保持本地离线原则不变。
+
+## 11. 联系信息
+
+如果您对本隐私政策或我们的数据实践有任何疑问，请联系我们：
+
+- **应用**：AURA - 统一记录与分析助手
+- **开发者**：Yang
+- **支持**：通过App Store评论或应用内反馈
+
+## 12. 合规性
+
+本政策符合 / 体现：
+- Apple App Store 指南（本地数据模式）
+- iOS 数据保护原则
+- GDPR / CCPA 数据最小化与用户控制理念（无采集 / 无传输）
+
+使用 AURA 即表示您理解本应用仅在本地运行，不收集或传输出任何个人数据。
+

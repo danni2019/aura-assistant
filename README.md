@@ -17,7 +17,7 @@
 
 ## 📱 Overview
 
-AURA (Assistant for Unified Record & Analysis) is a comprehensive iOS application designed to help you record, analyze, and manage various aspects of your daily life. Whether it's health metrics, study progress, financial records, or personal goals, AURA provides an intelligent and intuitive platform for data tracking and insights.
+AURA (Assistant for Unified Record & Analysis) is a lightweight iOS application designed to help you locally record, organize, and analyze everyday personal information (e.g., study progress, finances, habits, goals) entirely on-device. There is no cloud, HealthKit, Apple Health, or network data transmission; everything stays on your device.
 
 ## ✨ Key Features
 
@@ -28,7 +28,7 @@ AURA (Assistant for Unified Record & Analysis) is a comprehensive iOS applicatio
 - **Custom Fields**: Flexible data structures to match your needs
 
 ### 📊 Comprehensive Data Management
-- **Multi-Category Support**: Health, Exercise, Study, Finance, Lifestyle, and Custom categories
+- **Multi-Category Support**: Study, Activity, Finance, Lifestyle, Habits, and Custom categories (all on-device)
 - **Rich Data Types**: Numeric values, time durations, ratings, and observations
 - **Flexible Units**: Support for metric, imperial, and custom units
 - **Data Validation**: Ensures data integrity and consistency
@@ -72,35 +72,33 @@ AURA supports 8 languages with complete localization:
 
 ## 📋 Data Categories
 
-### 🏥 Health & Fitness
-- **Vital Signs**: Blood pressure, heart rate, temperature
-- **Body Metrics**: Weight, height, BMI tracking
-- **Sleep Patterns**: Duration, quality, and sleep cycles
-- **Exercise Records**: Workouts, duration, intensity, calories
+### 📚 Study & Learning
+- **Progress**: Reading pages, study hours, course advancement
+- **Skill Development**: Practice sessions, proficiency notes
+- **Project Logs**: Milestones and checkpoints
 
-### 📚 Study & Work
-- **Learning Progress**: Reading pages, study hours, courses
-- **Work Productivity**: Hours worked, tasks completed, efficiency
-- **Skill Development**: Practice time, proficiency levels
-- **Project Management**: Milestones, deadlines, progress
+### 🏃 Activity Tracking (General / Non-medical)
+- **Sessions**: Generic activity durations or repetitions
+- **Custom Values**: Time, counts, or simple numeric metrics you define
+- **Notes**: Free-form observations (not for medical data)
 
 ### 💰 Financial Tracking
-- **Expense Tracking**: Daily expenses, categories, budgets
-- **Income Records**: Salary, bonuses, additional income
-- **Investment Monitoring**: Portfolio performance, returns
-- **Savings Goals**: Emergency funds, specific targets
+- **Expenses**: Daily expenses, categories, simple budgeting
+- **Income**: Income events, side revenue logs
+- **Simple Monitoring**: Manual value tracking (no banking links)
+- **Savings**: Goal progress counters
 
-### 🌱 Lifestyle & Wellness
-- **Nutrition**: Water intake, meal tracking, dietary habits
-- **Mental Health**: Mood ratings, stress levels, meditation
-- **Habits**: Daily routines, habit streaks, consistency
-- **Personal Growth**: Goal achievement, self-reflection
+### 🌱 Lifestyle & Habits
+- **Routines**: Habit streaks & checklists
+- **Personal Projects**: Side project milestones
+- **Reflections**: Lightweight journaling entries
+- **Generic Counters**: Pages read, sessions completed, etc.
 
 ### ⚙️ Custom Categories
-- **Flexible Framework**: Create your own data categories
-- **Custom Units**: Define measurement units for any metric
-- **Personalized Templates**: Build reusable data entry forms
-- **Unlimited Possibilities**: Track anything important to you
+- **Flexible Framework**: Build your own structures
+- **Custom Units**: Define labels & units
+- **Reusable Templates**: Speed up repeated input
+- **Unlimited Possibilities**: Track what matters to you (non-medical)
 
 ## 🚀 Getting Started
 
@@ -116,11 +114,11 @@ AURA supports 8 languages with complete localization:
 4. Start recording your data!
 
 ### Quick Start Guide
-1. **Choose a Category**: Select from health, study, finance, or lifestyle
+1. **Choose a Category**: Select from study, activity, finance, lifestyle, or custom
 2. **Add Your First Record**: Use the smart entry system for quick input
 3. **Set a Goal**: Define what you want to achieve
-4. **Track Progress**: Watch your data come alive with insights
-5. **Analyze Trends**: Discover patterns in your daily life
+4. **Track Progress**: See visual summaries locally
+5. **Analyze Trends**: Discover patterns offline
 
 ## 🎨 Interface Design
 
@@ -158,11 +156,11 @@ AURA supports 8 languages with complete localization:
 
 ## 📊 Use Cases
 
-### For Health Enthusiasts
-- Track daily weight, blood pressure, and exercise metrics
-- Monitor sleep patterns and identify improvement opportunities
-- Set fitness goals and track progress toward health targets
-- Generate insights about lifestyle factors affecting health
+### For Learners & Creators
+- Track study hours and learning progress
+- Log practice sessions and skill development
+- Set focused goals and measure improvement
+- Discover patterns in productivity cycles
 
 ### For Students & Professionals
 - Record study hours and track learning progress
@@ -196,11 +194,11 @@ AURA supports 8 languages with complete localization:
 - **Delete Anytime**: Remove individual records or all data instantly
 - **No Lock-in**: Your data is accessible even if you stop using the app
 
-### Compliance
-- **GDPR Compliant**: Follows European data protection standards
-- **CCPA Compliant**: Meets California privacy requirements
-- **iOS Security**: Leverages Apple's robust security framework
-- **Regular Audits**: Continuous security and privacy assessments
+### Compliance / Privacy Model
+- **Local-Only Architecture**: Pure on-device processing and storage
+- **Data Minimization**: No external collection or transmission
+- **User Control**: Full create / edit / delete locally
+- **Security by Platform**: Leverages iOS sandbox & encryption
 
 ## 🌟 What Makes AURA Special
 
@@ -225,16 +223,16 @@ AURA supports 8 languages with complete localization:
 ## 🎯 Roadmap
 
 ### Upcoming Features
-- **Apple Watch Support**: Quick data entry from your wrist
+- **Apple Watch Support (Planned)**: Potential quick data entry (no HealthKit)
 - **Siri Shortcuts**: Voice-activated data recording
 - **Widget Support**: Home screen widgets for quick access
-- **iCloud Sync**: Optional cloud synchronization across devices
+- **(No Cloud Sync)**: Offline-only design retained
 
 ### Future Enhancements
-- **Advanced Analytics**: Machine learning-powered insights
-- **Social Features**: Share achievements with friends (optional)
-- **Integration APIs**: Connect with other productivity apps
-- **Advanced Visualizations**: 3D charts and interactive dashboards
+- **Advanced Analytics**: Enhanced local insight generation
+- **Social Features**: Optional local-only share/export (no server)
+- **Integration APIs**: Potential device-only automation hooks
+- **Advanced Visualizations**: Rich interactive dashboards (offline)
 
 ## 💬 Community & Support
 
@@ -285,9 +283,8 @@ Legacy (kept temporarily for rollback):
 
 Made with ❤️ by Yang
 
-contact: muzexlxl@foxmail.com
-
 </div>
+
 
 # AURA - 统一记录与分析助手
 
@@ -308,7 +305,7 @@ contact: muzexlxl@foxmail.com
 
 ## 📱 应用概述
 
-AURA（统一记录与分析助手，Assistant for Unified Record & Analysis）是一个全面的 iOS 应用程序，旨在帮助您记录、分析和管理日常生活的各个方面。无论是健康指标、学习进度、财务记录还是个人目标，AURA 都提供了一个智能直观的数据跟踪和洞察平台。
+AURA（统一记录与分析助手，Assistant for Unified Record & Analysis）是一个轻量级 iOS 应用，帮助您在本地记录、整理和分析日常个人信息（例如：学习进度、财务、习惯、目标）。应用不使用云端、HealthKit、Apple Health，也不进行任何联网数据传输；所有内容仅保存在您的设备上。
 
 ## ✨ 核心功能
 
@@ -319,7 +316,7 @@ AURA（统一记录与分析助手，Assistant for Unified Record & Analysis）�
 - **自定义字段**：灵活的数据结构满足您的需求
 
 ### 📊 全面的数据管理
-- **多分类支持**：健康、运动、学习、财务、生活方式和自定义分类
+- **多分类支持**：学习、活动（非医疗）、财务、生活方式、习惯、自定义（全部本地）
 - **丰富的数据类型**：数值、时间长度、评分和观察记录
 - **灵活的单位**：支持公制、英制和自定义单位
 - **数据验证**：确保数据完整性和一致性
@@ -363,35 +360,33 @@ AURA 支持 8 种语言的完整本地化：
 
 ## 📋 数据分类
 
-### 🏥 健康与健身
-- **生命体征**：血压、心率、体温
-- **身体指标**：体重、身高、BMI跟踪
-- **睡眠模式**：时长、质量和睡眠周期
-- **运动记录**：锻炼、时长、强度、卡路里
+### 📚 学习记录
+- **进度**：阅读页数、学习时长、课程推进
+- **技能发展**：练习次数 / 时间、熟练度备注
+- **项目日志**：里程碑与阶段记录
 
-### 📚 学习与工作
-- **学习进度**：阅读页数、学习时间、课程
-- **工作效率**：工作时间、完成任务、效率
-- **技能发展**：练习时间、熟练程度
-- **项目管理**：里程碑、截止日期、进度
+### 🏃 活动跟踪（通用 / 非医疗）
+- **活动会话**：简单时长或次数
+- **自定义数值**：您定义的计数或数值
+- **备注**：自由文本（不用于医疗数据）
 
-### 💰 财务跟踪
-- **支出跟踪**：日常支出、分类、预算
-- **收入记录**：工资、奖金、额外收入
-- **投资监控**：投资组合表现、回报
-- **储蓄目标**：应急基金、特定目标
+### 💰 财务记录
+- **支出**：日常支出与分类
+- **收入**：收入事件与额外来源
+- **简易监控**：手动记录数值（无账号/无绑定）
+- **储蓄进度**：目标推进
 
-### 🌱 生活方式与健康
-- **营养**：饮水量、饮食跟踪、饮食习惯
-- **心理健康**：心情评分、压力水平、冥想
-- **习惯**：日常例行公事、习惯连续性、一致性
-- **个人成长**：目标达成、自我反思
+### 🌱 生活方式与习惯
+- **日常习惯**：打卡 & 连续天数
+- **个人项目**：阶段性进展
+- **反思日记**：简洁文本记录
+- **通用计数**：页面、次数、会话等
 
 ### ⚙️ 自定义分类
-- **灵活框架**：创建您自己的数据分类
-- **自定义单位**：为任何指标定义测量单位
-- **个性化模板**：构建可重用的数据录入表单
-- **无限可能**：跟踪对您重要的任何内容
+- **灵活结构**：自定义字段与单元
+- **自定义单位**：自定义标签/单位
+- **可复用模板**：加速重复输入
+- **无限扩展**：跟踪您关心（非医疗）的内容
 
 ## 🚀 快速开始
 
@@ -407,7 +402,7 @@ AURA 支持 8 种语言的完整本地化：
 4. 开始记录您的数据！
 
 ### 快速入门指南
-1. **选择分类**：从健康、学习、财务或生活方式中选择
+1. **选择分类**：从学习、活动、财务、生活方式或自定义中选择
 2. **添加第一条记录**：使用智能录入系统快速输入
 3. **设定目标**：定义您想要实现的目标
 4. **跟踪进度**：观看您的数据通过洞察变得生动
@@ -449,11 +444,11 @@ AURA 支持 8 种语言的完整本地化：
 
 ## 📊 使用场景
 
-### 健康爱好者
-- 跟踪每日体重、血压和运动指标
-- 监控睡眠模式并识别改进机会
-- 设定健身目标并跟踪健康目标进度
-- 生成关于影响健康的生活方式因素的洞察
+### 学习与创作
+- 跟踪学习时间与进度
+- 记录练习会话与技能培养
+- 设定聚焦目标并衡量改进
+- 发现效率节奏与模式
 
 ### 学生和专业人士
 - 记录学习时间并跟踪学习进度
@@ -487,11 +482,11 @@ AURA 支持 8 种语言的完整本地化：
 - **随时删除**：立即删除单个记录或所有数据
 - **无锁定**：即使停止使用应用，您的数据仍可访问
 
-### 合规性
-- **GDPR合规**：遵循欧洲数据保护标准
-- **CCPA合规**：满足加州隐私要求
-- **iOS安全**：利用Apple的强大安全框架
-- **定期审计**：持续的安全和隐私评估
+### 合规 / 隐私模式
+- **纯本地架构**：所有处理与存储均在设备上
+- **数据最小化**：无外部采集或传输
+- **用户控制**：完整的创建 / 编辑 / 删除控制
+- **平台安全**：利用 iOS 沙盒与系统加密
 
 ## 🌟 AURA 的特色
 
@@ -516,16 +511,16 @@ AURA 支持 8 种语言的完整本地化：
 ## 🎯 发展路线图
 
 ### 即将推出的功能
-- **Apple Watch支持**：从手腕快速数据录入
-- **Siri快捷指令**：语音激活数据记录
-- **小组件支持**：主屏幕小组件快速访问
-- **iCloud同步**：设备间的可选云同步
+- **Apple Watch 支持（规划）**：可能的快速录入（无 HealthKit）
+- **Siri 快捷指令**：语音触发数据记录
+- **小组件支持**：主屏幕快速入口
+- **（无云同步）**：保持离线本地设计
 
 ### 未来增强
-- **高级分析**：机器学习驱动的洞察
-- **社交功能**：与朋友分享成就（可选）
-- **集成API**：与其他生产力应用连接
-- **高级可视化**：3D图表和交互式仪表板
+- **高级分析**：增强本地洞察
+- **可选分享**：本地导出/分享（无服务器）
+- **集成 / 自动化**：潜在本地自动化钩子
+- **高级可视化**：更丰富的交互图表（离线）
 
 ## 💬 社区与支持
 
@@ -566,7 +561,5 @@ AURA 是专有软件。保留所有权利。
 [📱 App Store下载](#) | [🔒 隐私政策](./Privacy_Policy_ZH.md) | [📧 联系支持](#)
 
 由Yang用❤️制作
-
-contact: muzexlxl@foxmail.com
 
 </div>

@@ -225,7 +225,6 @@ AURA supports 8 languages with complete localization:
 ## 🎯 Roadmap
 
 ### Upcoming Features
-- **Apple Health Integration**: Sync with HealthKit for comprehensive health tracking
 - **Apple Watch Support**: Quick data entry from your wrist
 - **Siri Shortcuts**: Voice-activated data recording
 - **Widget Support**: Home screen widgets for quick access
@@ -517,7 +516,6 @@ AURA 支持 8 种语言的完整本地化：
 ## 🎯 发展路线图
 
 ### 即将推出的功能
-- **Apple Health集成**：与HealthKit同步进行全面健康跟踪
 - **Apple Watch支持**：从手腕快速数据录入
 - **Siri快捷指令**：语音激活数据记录
 - **小组件支持**：主屏幕小组件快速访问
